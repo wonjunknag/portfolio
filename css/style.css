@@ -15,6 +15,7 @@
   --color-yellow: #fff7d1;
   --color-orange: #feb546;
   --color-green: #7dd4bb;
+  --color-dark-green: #5d9e8c;
   --color-black: #000000;
   /* Font size */
   --font-large: 48px;
@@ -132,7 +133,7 @@ p {
 }
 
 .navbar__menu__item:hover {
-  background-color: var(--color-green);
+  background-color: var(--color-dark-green);
 }
 
 .nabvar__toggle-btn {
@@ -148,7 +149,7 @@ p {
 #home {
   background: url("/images/home-background.png") center/cover no-repeat;
   padding: 40px;
-  padding-top: 120px;
+  padding-top: 220px;
   text-align: center;
 }
 
@@ -252,7 +253,7 @@ p {
 }
 
 /* Skill */
-#skill {
+#skills {
   background-color: #29b9cf;
 }
 
